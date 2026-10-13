@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Padaria Pão de Casa · Teresina</title>
+<style>
+*{box-sizing:border-box;margin:0}body{font-family:system-ui,Segoe UI,Roboto,sans-serif;color:#2b2118;background:#fffaf3;line-height:1.6}
+header{display:flex;justify-content:space-between;align-items:center;padding:16px 6%;background:#fff;box-shadow:0 1px 6px #0001;position:sticky;top:0}
+header b{font-size:1.2rem;color:#a0522d}nav a{margin-left:18px;color:#2b2118;text-decoration:none}
+.hero{padding:80px 6%;background:linear-gradient(120deg,#f6e3c8,#fffaf3);display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:center}
+.hero h1{font-size:2.6rem;line-height:1.15}.hero p{margin:16px 0 24px;font-size:1.1rem}
+.btn{display:inline-block;background:#25d366;color:#fff;padding:14px 24px;border-radius:10px;text-decoration:none;font-weight:600}
+.foto{height:300px;border-radius:20px;background:#d9a066 radial-gradient(circle at 30% 30%,#f2c48d,#b5713b);display:flex;align-items:center;justify-content:center;font-size:6rem}
+section{padding:60px 6%}h2{font-size:1.8rem;margin-bottom:24px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:#fff;border-radius:14px;padding:22px;box-shadow:0 2px 10px #0001}.card span{color:#a0522d;font-weight:700}
+.info{background:#2b2118;color:#fff}.info .cards .card{background:#3a2c20;color:#fff}
+footer{text-align:center;padding:24px;font-size:.9rem;color:#777}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding:48px 6%}.hero h1{font-size:2rem}nav{display:none}}
+</style></head><body>
+<header><b>🥖 Pão de Casa</b><nav><a href="#cardapio">Cardápio</a><a href="#encomendas">Encomendas</a><a href="#onde">Onde fica</a></nav></header>
+<div class="hero"><div><h1>Pão quentinho saindo às 6h e às 16h</h1><p>Padaria de bairro desde 2009. Pão francês, bolos caseiros e salgados feitos aqui mesmo, todo dia.</p>
+<a class="btn" href="https://wa.me/5500000000000?text=Oi!%20Quero%20fazer%20uma%20encomenda">Pedir pelo WhatsApp</a></div><div class="foto">🍞</div></div>
+<section id="cardapio"><h2>Os mais pedidos</h2><div class="cards">
+<div class="card"><h3>Pão francês</h3><p>Casquinha crocante, fornada duas vezes ao dia.</p><span>R$ 0,90 a unidade</span></div>
+<div class="card"><h3>Bolo de macaxeira</h3><p>Receita da casa, sai rápido de manhã.</p><span>R$ 28,00 inteiro</span></div>
+<div class="card"><h3>Cento de salgados</h3><p>Coxinha, kibe, risole e pastel assado.</p><span>R$ 65,00</span></div>
+<div class="card"><h3>Café da manhã completo</h3><p>Pão, queijo, presunto, suco e café, pra 2 pessoas.</p><span>R$ 32,00</span></div></div></section>
+<section id="encomendas" class="info"><h2>Encomendas pra festa</h2><div class="cards">
+<div class="card"><h3>1. Escolha</h3><p>Manda no WhatsApp o que precisa e pra quantas pessoas.</p></div>
+<div class="card"><h3>2. Confirme</h3><p>A gente passa o valor e o horário de retirada.</p></div>
+<div class="card"><h3>3. Retire ou receba</h3><p>Entrega no bairro com taxa a combinar.</p></div></div></section>
+<section id="onde"><h2>Onde fica</h2><p>Rua Exemplo, 123 · Centro · Teresina/PI<br>Seg a sáb: 5h30 às 20h · Dom: 6h às 12h</p></section>
+<footer>Página de demonstração (empresa fictícia) feita para portfólio.</footer>
+</body></html>
