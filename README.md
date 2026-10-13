@@ -4,7 +4,7 @@ Alguns trabalhos pra mostrar o tipo de coisa que eu faço: sistema web, planilha
 
 ## Sistema de gestão escolar (projeto principal)
 
-🔗 https://gestao-escola.felipefelipejulio242.workers.dev/
+🔗 https://gestao-escola.nexoeduca.workers.dev/
 
 Sistema web feito pra escola acompanhar as turmas no dia a dia. O painel já abre mostrando:
 
